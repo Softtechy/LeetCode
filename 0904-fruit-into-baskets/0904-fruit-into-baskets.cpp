@@ -2,16 +2,16 @@ class Solution {
 public:
     int totalFruit(vector<int>& fruits) {
 
-        unordered_map<int, int> freq;
+        unordered_map <int, int> freq;
 
         int left = 0;
         int ans = 0;
 
-        for (int right = 0; right < fruits.size(); right++) {
+        for(int right = 0; right < fruits.size(); right++){
 
             freq[fruits[right]]++;
 
-            while (freq.size() > 2) {
+            while (freq.size() > 2){
 
                 freq[fruits[left]]--;
 
@@ -26,5 +26,6 @@ public:
         }
 
         return ans;
+ 
     }
 };
