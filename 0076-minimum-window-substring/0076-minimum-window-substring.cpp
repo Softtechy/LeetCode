@@ -2,12 +2,13 @@ class Solution {
 public:
     string minWindow(string s, string t) {
 
-        if (t.size() > s.size())
+        if (t.size() > s.size()){
             return "";
+        }
 
         vector<int> need(128, 0);
 
-        for (char c : t) {
+        for(char c : t){
             need[c]++;
         }
 
@@ -17,26 +18,26 @@ public:
         int bestStart = 0;
         int bestLength = INT_MAX;
 
-        for (int right = 0; right < s.size(); right++) {
+        for(int right = 0; right < s.size(); right++){
 
-            if (need[s[right]] > 0) {
+            if(need[s[right]] > 0){
                 required--;
             }
 
             need[s[right]]--;
 
-            while (required == 0) {
+            while (required == 0){
 
                 int windowLength = right - left + 1;
 
-                if (windowLength < bestLength) {
+                if(windowLength < bestLength) {
                     bestLength = windowLength;
                     bestStart = left;
                 }
 
                 need[s[left]]++;
 
-                if (need[s[left]] > 0) {
+                if (need[s[left]] > 0){
                     required++;
                 }
 
@@ -44,9 +45,11 @@ public:
             }
         }
 
-        if (bestLength == INT_MAX)
+        if(bestLength == INT_MAX){
             return "";
+        }
 
         return s.substr(bestStart, bestLength);
+        
     }
 };
