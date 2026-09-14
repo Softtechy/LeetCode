@@ -28,12 +28,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/Softtechy/LeetCode/tree/master/0035-search-insert-position) |
 | [0209-minimum-size-subarray-sum](https://github.com/Softtechy/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0704-binary-search](https://github.com/Softtechy/LeetCode/tree/master/0704-binary-search) |
 | [0904-fruit-into-baskets](https://github.com/Softtechy/LeetCode/tree/master/0904-fruit-into-baskets) |
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/Softtechy/LeetCode/tree/master/0035-search-insert-position) |
 | [0209-minimum-size-subarray-sum](https://github.com/Softtechy/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0704-binary-search](https://github.com/Softtechy/LeetCode/tree/master/0704-binary-search) |
 ## Prefix Sum
