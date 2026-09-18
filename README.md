@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Softtechy/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0209-minimum-size-subarray-sum](https://github.com/Softtechy/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0704-binary-search](https://github.com/Softtechy/LeetCode/tree/master/0704-binary-search) |
+| [0875-koko-eating-bananas](https://github.com/Softtechy/LeetCode/tree/master/0875-koko-eating-bananas) |
 | [0904-fruit-into-baskets](https://github.com/Softtechy/LeetCode/tree/master/0904-fruit-into-baskets) |
 ## Binary Search
 |  |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Softtechy/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0209-minimum-size-subarray-sum](https://github.com/Softtechy/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0704-binary-search](https://github.com/Softtechy/LeetCode/tree/master/0704-binary-search) |
+| [0875-koko-eating-bananas](https://github.com/Softtechy/LeetCode/tree/master/0875-koko-eating-bananas) |
 ## Prefix Sum
 |  |
 | ------- |
